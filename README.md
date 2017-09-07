@@ -1,6 +1,11 @@
 # ImageCompressor
 Wrapper to any image compression engine
 
+## Install via composer
+```
+"ytubes/image-compressor": "^1.0.0"
+```
+
 ### Example usage:
 ```
 $testImage = new \SplFileInfo('/some_dir/test.jpg');
