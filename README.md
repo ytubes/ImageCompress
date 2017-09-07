@@ -1,2 +1,2 @@
-# ImageCompress
+# ImageCompressor
 Wrapper to any image compression engine
