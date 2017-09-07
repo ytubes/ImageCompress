@@ -5,7 +5,7 @@ use SplFileInfo;
 
 interface CompressorInterface
 {
-	public function setOriginalFile(SplFileInfo $originalFile);
+    public function setOriginalFile(SplFileInfo $originalFile);
 
     public function setDestination($destination);
 
