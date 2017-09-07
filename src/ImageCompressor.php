@@ -40,7 +40,7 @@ class ImageCompressor implements CompressorInterface
         if (class_exists($driverClass) && is_subclass_of($driverClass, CompressorInterface::class)) {
             return new $driverClass;
         } else {
-            throw new \InvalidArgumentException('Image comressor driver not found');
+            throw new \InvalidArgumentException('Image compressor driver not found');
         }
     }
 
